@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+li{list-style: none;}
+body{}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{}
+.upper{
+    background: black;
+}
+.down{
+    background: #f1eeee8f;
+    /* padding: 5px; */
+}
+
+}
+.discount-adv{
+    text-align: center;
+    width: 100%;
+    background: black;
+}
+.discount-adv h4{
+    color: #fff;
+    position: relative;
+    font-size: 27px;
+    font-weight: 400;
+    text-align: center;
+}
+.discount-adv h4 span{
+    font-size: 30px;
+}
+.discount-adv a{
+    text-decoration: none;
+    padding: 0px 4px;
+    font-size: 13px;
+    color: seagreen;
+    margin: 0;
+    position: absolute;
+    bottom: 20%;
+    transition-duration: 0.4s;
+}
+.discount-adv a:hover{color: red;}
+
+
+
+
+.nav{}
+.nav ul{justify-content: space-evenly;}
+.nav ul li{
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #000000bf;
+    text-transform: capitalize;
+    display: block;
+    transition: 0.4s ease;
+    margin: 0 7px;
+    border-bottom: 4px solid transparent;
+}
+.nav ul li a:hover{
+    color: #036403;
+    border-bottom: 4px solid green;
+}
+
+
+
+.business{
+    text-align: center;
+    padding: 35px 0px;
+}
+.business h2{
+    font-weight: bolder;
+}
+.business p{
+    color: #332f2f;
+}
+
+
+.content{}
+.menu{
+    flex-basis: 22%;
+    max-width: 22%;
+}
+.content ul{
+    display: block;
+}
+.content ul li{
+    padding: 5px;
+}
+.content ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #000000bf;
+    transition: all 0.4s;
+}
+.content ul li:first-child{ font-weight: bold; }
+.content ul li a:hover{
+    border-bottom: 1px solid;
+    color: green;
+    font-weight: bolder;
+}
+
+.gallary{
+    flex-basis: 78%;
+    max-width: 78%;
+    }
+.img-sec{
+    max-width: 33.33%;
+    flex-basis: 33.33%;
+    width: 33.33%;
+    height: 275px;
+    padding: 0 6px;
+    }
+.img-sec a{
+    text-decoration: none;
+    color: #000000bf;
+    text-transform: capitalize;
+}
+.img-sec a:hover{
+    color: green;
+}
+.img-sec a img{
+    height: 220px;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+.img-sec a img:hover{
+    opacity: 0.5;
+}
+.img-sec a span{
+    color: white;
+    border: 0px solid;
+    padding: 0px 2px;
+    border-radius: 5px;
+    background: #F21AA5;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+footer{
+    background: #f0f0f0d6;
+    padding: 10px 0px;
+}
+.part{
+    max-width: 33.33%;
+    flex-basis: 33.33%;
+    padding: 40px;
+    color: #000000cf;
+    text-align: center;
+    }
+.part h1{}
+.part p{
+}
+.part span{
+    font-size: 25px;
+    font-weight: bolder;
+}
