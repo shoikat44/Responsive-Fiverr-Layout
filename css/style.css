@@ -13,7 +13,7 @@ body{}
 }
 header{}
 .upper{
-    background: black;
+    background: #262626;
 }
 .down{
     background: #f1eeee8f;
@@ -85,8 +85,8 @@ header{}
 
 .content{}
 .menu{
-    flex-basis: 22%;
-    max-width: 22%;
+    /* flex-basis: 22%; */
+    /* max-width: 22%; */
 }
 .content ul{
     display: block;
